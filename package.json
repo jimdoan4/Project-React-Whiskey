@@ -1,0 +1,19 @@
+{
+  "name": "project-react-whiskey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimdoan4/Project-React-Whiskey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimdoan4/Project-React-Whiskey/issues"
+  },
+  "homepage": "https://github.com/jimdoan4/Project-React-Whiskey#readme"
+}
