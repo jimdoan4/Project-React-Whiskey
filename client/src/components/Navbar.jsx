@@ -61,9 +61,6 @@ function Navbar() {
           <a href="/user" class="lp__nav__link">
             Sign Up
           </a>
-          <a href="/user/:userId" class="lp__nav__link">
-            User Account
-          </a>
         </div>
       </nav>
       {/* <nav class="navbar navbar-expand-md fixed-top">
