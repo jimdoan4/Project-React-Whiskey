@@ -41,7 +41,20 @@ const NavContainer = styled.div`
 function Navbar ()  {
     return (
         <NavContainer>
-        <nav class="navbar navbar-expand-md fixed-top">
+         <nav>
+      <div class="lp__nav__logo"><span>WHISKEY</span>TOUR</div>
+      <div class="lp__nav__linkSet">
+        <a href="/user/:userId" class="lp__nav__link">About</a>
+        <a href="/user" class="lp__nav__link">Shop</a>
+        <a href="#" class="lp__nav__link">Explore</a>
+        <a href="#" class="lp__nav__link">Contact</a>
+      </div>
+      <div class="lp__nav__linkSet">
+        <a href="#" class="lp__nav__link">Sign Up</a>
+        <a href="#" class="lp__nav__link">Login</a>
+      </div>
+    </nav>
+        {/* <nav class="navbar navbar-expand-md fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarResponsive">
             <span class="fa fa-bars text-dark"></span>
@@ -65,7 +78,7 @@ function Navbar ()  {
                     </li>
             </ul>
         </div>
-    </nav>
+    </nav> */}
     </NavContainer>
     )
 }
