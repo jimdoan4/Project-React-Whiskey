@@ -1,20 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-// import MenPage from './components/MenPage'
-import UserPage from './components/UserPage.js'
-import SneakerPage from './components/SneakerPage'
+import UserPage from "./components/UserPage.js";
+
 function App() {
   return (
     <Router>
-    <Navbar/>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-            {/* <Route exact path='/type/:typeId' component={MenPage} /> */}
-            <Route exact path='/user' component={UserPage} />
-            <Route exact path='/user/:userId' component={SneakerPage} />
+        <Route exact path="/user" component={UserPage} />
       </Switch>
     </Router>
   );
