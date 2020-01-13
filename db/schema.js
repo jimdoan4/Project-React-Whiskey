@@ -30,7 +30,7 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  whiskeys: [SneakerSchema]
+  whiskeys: [WhiskeySchema]
 });
 
 module.exports = {
